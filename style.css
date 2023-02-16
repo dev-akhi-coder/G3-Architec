@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #FFF4E7;
+}
+.navitem{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+.left-logo h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+.nav-items a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.banner-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0;
+}
+.banner-section h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #131313;
+    line-height: 75px;
+    margin-top: 115px;
+    margin-bottom: 45px;
+}
+.banner-section p{
+    display: inline-block;
+    text-align: center;
+    width: 650px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.banner-img img{
+    width: 100%;
+    padding: 50px 8%;
+    background-color: #FFF4E7;
+}
+.btn{
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #727272;
+    background-color: #FF900E;
+    color: #fff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    transition: 0.2s ease-in-out;
+    border: 1px solid #FF900E
+}
+
+.btn:hover{
+    background-color: #fff;
+    border: 1px solid #FF900E;
+    color: #FF900E;
+    transition: 0.2s ease-in-out;
+}
+
+.team-group{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 8%;
+}
+.team-section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.team-images img{
+    padding: 10px;
+    width: 342px;
+    height: 342px;
+}
+
+.team-discuss{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 0 10px 0 40px;
+    flex: 5;
+}
+.team-discuss h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #131313;
+}
+.team-discuss p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 40px;
+}
+.titlePartColorOne {
+    color: #727272;
+}
+
+.titlePartColorTwo {
+    color: #FF900E;
+}
+
+
+/* feature code start */
+.feature {
+    padding: 50px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.featureLeftTextBox {
+    flex: 1.2;
+    margin-right: 70px;
+}
+
+.feature .featureLeftTextBox .featureLeftTextBoxInner h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #131313;
+}
+.featureLeftTextBoxInner h3:before {
+    border-left: 4px solid #f67519;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 310%;
+    left: 10%;
+    right: 8px;
+    bottom: -234%;
+    width: 1238px;
+    z-index: -1;
+}
+
+.feature .featureLeftTextBox .featureLeftTextBoxInner p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 40px;
+}
+
+.feature .featureLeftTextBox .featureLeftTextBoxInner .featureLeftTextBoxInnerBox {
+    padding: 36px 20px;
+    box-shadow: 10px 10px 55px -8px rgba(163, 163, 163, 0.23);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.feature .featureLeftTextBox .featureLeftTextBoxInner .featureLeftTextBoxInnerBox p {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.featureRightimageBox {
+    flex: 1;
+}
+
+
+.featureRightimageBox img {
+    width: 100%;
+}
+
+.featureButton {
+    position: relative;
+    right: 40px;
+    top: -80px;
+}
+
+.featureRightimageBox .featureButton button {
+    background-color:#FF900E;
+    border: none;
+    border-radius: 5px;
+}
+
+.featureRightimageBox .featureButton button a {
+    padding: 40px 180px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.featureRightimageBox .featureButton button a h1 {
+    font-size: 30px;
+}
+/* feature code end */
+/* fact code start */
+
+.fact {
+    padding: 50px 8%;
+}
+
+.fact .factTitleBox h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.fact .factTitleBox p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 40px;
+}
+
+.fact .factIconGrid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.fact .factIconGrid .iconBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 25%;
+    margin: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 40px 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.fact .factIconGrid .iconBox:hover{
+    background-color: #FFF4E7;
+    transition: 0.3s ease-in-out;
+    color: #131313;
+}
+
+.fact .factIconGrid .iconBox:hover h5{
+    transition: 0.3s ease-in-out;
+    color: #131313;
+}
+
+.fact .factIconGrid .iconBox h5{
+    font-size: 17px;
+    font-weight: 600;
+    color: #727272;
+}
+/* fact code end */
+/* sponsor code start */
+
+.sponsore {
+    text-align: center;
+    padding: 50px 8%;
+}
+
+.sponsore .sponsoreTitleBox h1{
+    font-size: 45px;
+}
+
+.sponsore .sponsoreTitleBox p{
+    font-size: 14px;
+    color: #727272;
+}
+
+.sponsore .sponsoreLogoGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 50px;
+}
+/* sponsor code end */
+
+/* footer code start */
+
+.footer {
+    padding: 50px 8%;
+}
+.footerSection{
+    background-color: #FFF4E7;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 8px;
+}
+/* footer code end */
+
+
+/* Media Query Css */
+@media only screen and (max-width: 600px) and (min-width: 400px)  {
+    .navitem{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-bottom: 1px solid #131313;
+        padding: 20px ;
+    }
+    .navitem h1{
+        text-align: center;
+    }
+    .nav-items {
+        margin-top: 20px;
+    }
+    .navitem a{
+        margin-left: 0px;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 10px 12px;
+        background-color: #eeeeee;
+        border-radius: 20px;
+    }
+    .banner-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 0 50px;
+    }
+    .banner-description{
+        width: 400px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .banner-description p{
+        width: 400px;
+        text-align: center;
+    }
+    .banner-description .banner-btn{
+       text-align: center;
+    }
+    .banner-img img{
+        width: 380px;
+        margin-right: 20px !important;
+    }
+    .team-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .team-images{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+  
+
+     /* feature code */
+     .feature {
+        padding: 50px 8%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .feature .featureLeftTextBox .featureLeftTextBoxInner p{
+        margin-top: 10px;
+    }
+
+    .featureLeftTextBox {
+        flex: 1;
+        margin-right: 0px;
+    }
+
+    .featureRightimageBox {
+        margin-top: 20px;
+    }
+
+    .featureButton {
+        position: relative;
+        right: 0px;
+        top: 10px;
+    }
+
+    /* Fact code */
+
+    .fact .factIconGrid {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .fact .factIconGrid .iconBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #FF900E;
+        border-radius: 8px;
+        padding: 40px 40%;
+        margin-top: 20px;
+    }
+
+    .fact .factIconGrid .iconBox h5{
+        text-align: center;
+    }
+
+    .factTitleBox {
+        text-align: center;
+    }
+
+    /* sponsor code */
+
+    .sponsore .sponsoreLogoGrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 50px;
+        place-items: center;
+    }
+
+    .sponsore .sponsoreLogoGrid .logoBox img{
+        width: 60%;
+    }
+    
+  }
+
+
+
+
+
+
